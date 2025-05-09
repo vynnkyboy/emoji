@@ -33,7 +33,7 @@ const BODY_PADDING = "px-4 sm:px-6"
 const inter = Inter({ subsets: ["latin"] })
 
 export function generateMetadata(): Metadata {
-  const title = "AI Emoji Generator"
+  const title = "Vynnky Emote"
   const description = "Turn your ideas into emojis in seconds. Generate your favorite Slack emojis with just one click."
 
   return {
@@ -106,7 +106,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               />
             </Link>
             <Link
-              href="https://github.com/pondorasti/emojis"
+              href="https://github.com/vynnkyboy"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center"
